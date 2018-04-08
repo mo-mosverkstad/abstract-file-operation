@@ -37,5 +37,15 @@ def cmd_shell():
                     change_director = False
                 if change_director:
                     status = status+DELIMITOR+directory
+        '''
+        elif inputs.startswith('touch '):
+            file = inputs[6:]
+            f = open(file, 'w')
+        '''
+
+
+
+
+
             
 cmd_shell()

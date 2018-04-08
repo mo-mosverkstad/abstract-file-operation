@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\cli_cmd",
     "\\src"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\cli_cmd\\cmd_shell.py",
   "PreviewInSolutionExplorer": false
 }
