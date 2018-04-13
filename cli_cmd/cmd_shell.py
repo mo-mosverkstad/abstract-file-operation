@@ -61,7 +61,6 @@ def cmd_shell():
         elif inputs == cmd.DATE:
             cmd.date()
 
-
         elif inputs.startswith(file_management.DELETE_SUBTREE):
             file_management.delete_subtree(status,[item for item in inputs.split(' ') if len(item) > 0][1])
 
