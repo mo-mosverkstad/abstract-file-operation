@@ -2,7 +2,7 @@ import os, cmd, file_management
 from file_framework import *
 from help_print import help
 
-def cmd_shell():
+def mo_cmd_shell():
     DIRECTORY = 1
     TEXTFILE = 2
     MODE_DIRECTORY = 'd-----   '
@@ -16,6 +16,9 @@ def cmd_shell():
     while True:
         inputs = input(status + PROMPT)
         if inputs in listfiles:
+            print('')
+            print(f'     Folder: {status}')
+            print('')
             the_list = os.listdir(status)
             print('Mode  ' + '   ' + 'Name')
             for item_name in the_list:
@@ -84,4 +87,4 @@ def cmd_shell():
 
 
             
-cmd_shell()
+mo_cmd_shell()

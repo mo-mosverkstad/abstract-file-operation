@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\cli_cmd",
-    "\\src"
+    "\\bitwise_cypher",
+    "\\bitwise_cypher\\libs",
+    "\\Mo_cmd_shell",
+    "\\src",
+    "\\temp",
+    "\\temp\\__pycache__"
   ],
-  "SelectedNode": "\\cli_cmd\\cmd_shell.py",
+  "SelectedNode": "\\bitwise_cypher\\libs\\base_bit-transposition.py",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,21 @@
+This is a list of all commands:
+  -cd:
+    use for change director for using by cd xxx\xxx\xxx
+	use cd ..\..\ for up and up
+  -Chkdsk:
+    Check a disk if it has errors
+  -cls:
+    clear screen
+  -cmd:
+    Get license of cmd_shell
+  -copy:
+    copy a file to another folder using by copy dir+file to dir+file
+  -date:
+    get date and time
+  -del:
+    delete a file only
+  -deltree:
+    delete a dictetory with/without contents
+  -dir:
+    List all files or dictetory
+  
